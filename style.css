@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(30, 63, 100);
+    color: white;
+    
+    font-family: "Ysabeau SC", sans-serif;
+    font-size: 25px;
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    height: 700px;
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(9, 18, 70);
+    color: white;
+    font-family: "Ysabeau SC", sans-serif;
+    font-size: 15px;
+    transition-duration: 0.2s;
+    border: none;
+}
+
+button:hover{
+    height: 70px;
+    width: 320px;
+    background-color: rgb(20, 38, 145);
+    transition-duration: 0.5s;
+    border: solid 1px white;
+}
+
+button:active{
+    background-color: white;
+    color: black;
+    height: 62px;
+    width: 312px;
+    transition-duration: 0.1s;
+    border: none;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+.fundo{
+    max-width: 70%;
+    padding-top: 10%;
+}
+
+main{
+    max-width: 90%;
+}
